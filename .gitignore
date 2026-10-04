@@ -1,0 +1,65 @@
+# ---------------------------------------------------------------------------
+# Expo & Metro
+# ---------------------------------------------------------------------------
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+
+# ---------------------------------------------------------------------------
+# Native Build Folders (If using Expo Prebuild / Continuous Native Generation)
+# ---------------------------------------------------------------------------
+# Un-comment these ONLY if you want to keep your project managed entirely 
+# by Expo config plugins and generate /android and /ios folders dynamically.
+# /android
+# /ios
+
+# ---------------------------------------------------------------------------
+# Native Android & iOS Build Artifacts & Credentials
+# ---------------------------------------------------------------------------
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.apk
+*.aab
+*.bundle
+*.jsbundle
+
+# ---------------------------------------------------------------------------
+# Dependencies & Package Managers
+# ---------------------------------------------------------------------------
+node_modules/
+.pnpm-debug.log*
+npm-debug.*
+yarn-debug.*
+yarn-error.log
+
+# ---------------------------------------------------------------------------
+# Environment Variables & Secrets (NEVER commit these)
+# ---------------------------------------------------------------------------
+.env
+.env.local
+.env*.local
+
+# ---------------------------------------------------------------------------
+# Editors, Tools, & OS Metadata
+# ---------------------------------------------------------------------------
+# macOS
+.DS_Store
+*.pem
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# JetBrains (WebStorm, Android Studio)
+.idea/
+*.iml
+
+# TypeScript cache
+*.tsbuildinfo
